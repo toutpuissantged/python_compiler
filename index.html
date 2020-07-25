@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/python.js"></script>
+        <link rel="stylesheet" href="css/python.css">
+        
+    </head>
+    <body style="background-color: rgb(124, 129, 50);" >
+        <div class="container" id="titre">
+            <h1 >python offline-web compiler </h1>
+            <h2 >input your code and run</h2>
+            <p id="foot"> Py-Web version 1.0.0 beta @ par toutpuissantged <a href="https://www.github.com/toutpuissantged"> lien github</a></p>
+        </div>
+        <div id="runable">
+            <input type="text" class="input" placeholder="tape your code here" id="inp" onkeypress=real_time()>
+            <button onclick=run() class="btn btn-primary" title="click to run python code">run</button>
+            <button onclick=remove() class="btn btn-danger" title="click to clear the console">clear console</button>
+            <span id="auto" title=" automatique clear the console if her height-size is too big">auto-clear</span>  <input type="checkbox" title="check to active the auto-cleaner" onclick=cocher() id="checked">
+        </div>
+        
+            <p id="ch"></p>
+    
+        <div id="out">
+            <p>Python 3.6.8 (default, Jan  3 2019, 03:42:36)</br> 
+                [GCC 8.2.0] on linux</br>
+                Type "help", "copyright", "credits" or "license" for more information.</br></p>
+        </div>
+        
+    </body>
+</html>
