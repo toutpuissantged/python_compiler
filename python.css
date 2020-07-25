@@ -1,0 +1,32 @@
+#titre{
+    background-color: rgb(33, 110, 110);
+    color: white;
+    border-radius: 10px;
+}
+#runable{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+#out{
+    background-color: rgba(26, 15, 10, 0.541);
+    color: white;
+}
+#foot{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+#auto{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+#ch{
+    background-color: rgba(37, 250, 232, 0.212);
+    color: white;
+    text-align: center;
+    
+}
+#inp{
+    text-align: center;
+}
