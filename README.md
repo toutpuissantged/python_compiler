@@ -1,17 +1,17 @@
-# toutpuissantged.github.io
-python web-offline compiler
-# C'est quoi ?
-cet appli web va nous permetre de compiler du code 
-python dans le navigateur 
+# Python Web Compiler (PWC)
+python web-offline compile
+# What's this ?
+this web app will allow us to compile code
+python in browser
 
 ## Installation
 
-pas d'installation a faire 
-il suffit d'avoir un navigateur web
+no installation to do
+you just need a web browser
 
 ## Contributing
-le coeur du compilateur est fait en javascript 
-et donc j'invite la communauter js a se pencher dessus
+the core of the compiler is made in javascript
+and so I invite the community to look into it
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT] (https://choosealicense.com/licenses/mit/)
